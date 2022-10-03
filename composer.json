@@ -1,0 +1,19 @@
+{
+    "name": "uzair/uzair-plugin",
+    "description": "My First Plugin Composer Initialization",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "heyitsuzair",
+            "email": "uzairdevil354123@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Includes\\":"./includes"
+        }
+    }
+}
