@@ -27,17 +27,17 @@ if (file_exists(dirname(__FILE__) . '/vendor/autoload.php')) {
 
 
 // code that run when plugin is activated
-function activate_plugin()
+function plugin_activation()
 {
     Includes\Base\activation::activate();
 }
 // code that run when plugin is deactivated
-function deactivate_plugin()
+function plugin_deactivation()
 {
     Includes\Base\deactivation::deactivate();
 }
-register_activation_hook(__FILE__, 'activate_plugin');
-register_deactivation_hook(__FILE__, 'deactivate_plugin');
+register_activation_hook(__FILE__, 'plugin_activation');
+register_deactivation_hook(__FILE__, 'plugin_deactivation');
 
 if (class_exists('Includes\init')) {
     Includes\init::register_services();
