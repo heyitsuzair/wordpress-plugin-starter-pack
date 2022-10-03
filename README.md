@@ -28,6 +28,8 @@
 
 15. Please Enable "WP_DEBUG" to true in "wp_config.php" in your parent root directory to see errors if there are any.
 
+16. Use That "Includes" Name Space To Refer To Your Classes
+
 If You Need Any Assistance, Get Back To Be On My Linkedin Account "uzair-dev".
 
 Made With :heart: By UZAIR.
